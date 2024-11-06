@@ -1,0 +1,11 @@
+[global]
+ioengine=io_uring
+do_verify=1
+verify=sha256
+size=128M
+rw=write
+bs=4K
+
+[test]
+filename=/dev/ublkb1
+iodepth=4

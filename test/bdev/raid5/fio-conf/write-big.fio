@@ -1,0 +1,11 @@
+[global]
+ioengine=sync
+iodepth=1
+do_verify=1
+verify=sha256
+size=128M
+rw=write
+bs=1M
+
+[test]
+filename=/dev/ublkb1
